@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b3446cf9a8e48117c75abd53bd1d7eb1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b3446cf9a8e48117c75abd53bd1d7eb1" ></div>
+        
+</body>
+<script>    
+    
+            var map_b3446cf9a8e48117c75abd53bd1d7eb1 = L.map(
+                "map_b3446cf9a8e48117c75abd53bd1d7eb1",
+                {
+                    center: [54.623, -5.1196],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b2af394ee4ffa85fecc7ae8a80114280 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+        
+    
+            var marker_dea633ea32ebbf26af3d2c98593777a4 = L.marker(
+                [51.507322, -0.127647],
+                {"fill": false, "radius": 34.6}
+            ).addTo(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+        
+    
+            var icon_c491cb511234240b939db99973884214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dea633ea32ebbf26af3d2c98593777a4.setIcon(icon_c491cb511234240b939db99973884214);
+        
+    
+        var popup_d873a6070007d169ea76fa5399e6a444 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf5b32db7ebcafe3450109da9cd4918 = $(`<div id="html_baf5b32db7ebcafe3450109da9cd4918" style="width: 100.0%; height: 100.0%;">london 173</div>`)[0];
+            popup_d873a6070007d169ea76fa5399e6a444.setContent(html_baf5b32db7ebcafe3450109da9cd4918);
+        
+
+        marker_dea633ea32ebbf26af3d2c98593777a4.bindPopup(popup_d873a6070007d169ea76fa5399e6a444)
+        ;
+
+        
+    
+    
+            var marker_a827e3f7621cc6ae4e8bbacef799ea94 = L.marker(
+                [53.479489, -2.245115],
+                {"fill": false, "radius": 27.6}
+            ).addTo(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+        
+    
+            var icon_f99317d08d48cf87b0889fbf82b7c050 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a827e3f7621cc6ae4e8bbacef799ea94.setIcon(icon_f99317d08d48cf87b0889fbf82b7c050);
+        
+    
+        var popup_880d15a2d8c8503d8e2cf4ae2576c02f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ede63247767f5a631e85a772d003271 = $(`<div id="html_5ede63247767f5a631e85a772d003271" style="width: 100.0%; height: 100.0%;">manchester 138</div>`)[0];
+            popup_880d15a2d8c8503d8e2cf4ae2576c02f.setContent(html_5ede63247767f5a631e85a772d003271);
+        
+
+        marker_a827e3f7621cc6ae4e8bbacef799ea94.bindPopup(popup_880d15a2d8c8503d8e2cf4ae2576c02f)
+        ;
+
+        
+    
+    
+            var marker_d235dc8cb90c80cb6a69b66b5b5a3fe4 = L.marker(
+                [52.479699, -1.902691],
+                {"fill": false, "radius": 20.2}
+            ).addTo(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+        
+    
+            var icon_38ca5aafcf8d7433a173aa5762506e2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d235dc8cb90c80cb6a69b66b5b5a3fe4.setIcon(icon_38ca5aafcf8d7433a173aa5762506e2d);
+        
+    
+        var popup_306875ddf5ed05a1e785475b5ea6c024 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d79a751c412c73987340ed9a2fffa5e = $(`<div id="html_1d79a751c412c73987340ed9a2fffa5e" style="width: 100.0%; height: 100.0%;">birmingham 101</div>`)[0];
+            popup_306875ddf5ed05a1e785475b5ea6c024.setContent(html_1d79a751c412c73987340ed9a2fffa5e);
+        
+
+        marker_d235dc8cb90c80cb6a69b66b5b5a3fe4.bindPopup(popup_306875ddf5ed05a1e785475b5ea6c024)
+        ;
+
+        
+    
+    
+            var marker_c4e23b3f8eae04c963ed194b7a1f6e1e = L.marker(
+                [54.596391, -5.930183],
+                {"fill": false, "radius": 12.6}
+            ).addTo(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+        
+    
+            var icon_1e484ba49b4977bdf02fad49505392e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c4e23b3f8eae04c963ed194b7a1f6e1e.setIcon(icon_1e484ba49b4977bdf02fad49505392e2);
+        
+    
+        var popup_4d531832e32ca5e8b310d88daf7df6ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8c898e6414e34370ec93c97ae596f97 = $(`<div id="html_a8c898e6414e34370ec93c97ae596f97" style="width: 100.0%; height: 100.0%;">belfast 63</div>`)[0];
+            popup_4d531832e32ca5e8b310d88daf7df6ca.setContent(html_a8c898e6414e34370ec93c97ae596f97);
+        
+
+        marker_c4e23b3f8eae04c963ed194b7a1f6e1e.bindPopup(popup_4d531832e32ca5e8b310d88daf7df6ca)
+        ;
+
+        
+    
+    
+            var marker_0f3f24ad60f5035262e751c9f8f57fda = L.marker(
+                [51.453802, -2.597298],
+                {"fill": false, "radius": 12.6}
+            ).addTo(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+        
+    
+            var icon_d11b142bcc4080a4c8a26469c338b5a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0f3f24ad60f5035262e751c9f8f57fda.setIcon(icon_d11b142bcc4080a4c8a26469c338b5a3);
+        
+    
+        var popup_31a74cb71a3132d0450e74cf9ad269a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_747c3ed38825fe55668f62aa8d43e68e = $(`<div id="html_747c3ed38825fe55668f62aa8d43e68e" style="width: 100.0%; height: 100.0%;">bristol 63</div>`)[0];
+            popup_31a74cb71a3132d0450e74cf9ad269a1.setContent(html_747c3ed38825fe55668f62aa8d43e68e);
+        
+
+        marker_0f3f24ad60f5035262e751c9f8f57fda.bindPopup(popup_31a74cb71a3132d0450e74cf9ad269a1)
+        ;
+
+        
+    
+    
+                var lat_lng_popup_b728305d2f93b2e7c54495c2274cbc90 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_b728305d2f93b2e7c54495c2274cbc90
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_b3446cf9a8e48117c75abd53bd1d7eb1);
+                    }
+                map_b3446cf9a8e48117c75abd53bd1d7eb1.on('click', latLngPop);
+            
+</script>
