@@ -4,7 +4,8 @@
 This repository includes supplementary materlias for the paper titled TITLE submitted to Lingua Special Issue on Bad Language and Vulgarity in Online and Public Discourse.
 <br />
 <br />
-### Contact
+
+## Contact
 - [mikko.laitinen@uef.fi](mikko.laitinen@uef.fi) <br />
 - [paula.rautionaho@uef.fi](paula.rautionaho@uef.fi) <br />
 - [masoud.fatemi@uef.fi](masoud.fatemi@uef.fi)
