@@ -8,7 +8,8 @@ This repository includes supplementary materials for the paper titled *Do we swe
 ## Contact
 - [mikko.laitinen@uef.fi](mikko.laitinen@uef.fi) <br />
 - [paula.rautionaho@uef.fi](paula.rautionaho@uef.fi) <br />
-- [masoud.fatemi@uef.fi](masoud.fatemi@uef.fi)
+- [mikko.halonen1@uef.fi](mikko.halonen1@uef.fi)
+- [masoud.fatemi@uef.fi](masoud.fatemi@uef.fi) <br />
 
 ## Usage
 This materials are intended for academic research and analysis. Users are encouraged to cite our paper in any resulting work.
