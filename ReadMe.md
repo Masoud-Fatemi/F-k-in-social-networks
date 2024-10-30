@@ -19,3 +19,6 @@ OUR PAPER BIBLIOGRAPHY HERE.
 - **uk_urban.html:** SOME INFO ABOUT THE FILE HERE
 - **us_rural.html:** SOME INFO ABOUT THE FILE HERE
 - **us_urban.html:** SOME INFO ABOUT THE FILE HERE
+- **GLMM.R:** The R code for the GLMM tree
+- **GLMM_data.xlsx:** Data for the GLMM tree
+- **Supplementary_Stat.pdf:** Summary of the tree 
