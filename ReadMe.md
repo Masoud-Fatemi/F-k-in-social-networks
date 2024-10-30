@@ -1,7 +1,7 @@
 # F-k-in-social-networks supplementary materials
 
 ## Overview
-This repository includes supplementary materlias for the paper titled TITLE submitted to Lingua Special Issue on Bad Language and Vulgarity in Online and Public Discourse.
+This repository includes supplementary materials for the paper titled *Do we swear more with friends or with acquaintances? F##k in social networks*, which was submitted to the Lingua Special Issue on Bad Language and Vulgarity in Online and Public Discourse.
 <br />
 <br />
 
