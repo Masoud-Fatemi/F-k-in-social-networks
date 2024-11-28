@@ -18,7 +18,7 @@ This materials are intended for academic research and analysis. Users are encour
 Laitinen, M., Rautionaho, P., Halonen, M., & Fatemi, M. (2024). Do we swear more with friends or with acquaintances? F##k in social networks. *Lingua Special Issue on Bad Language and Vulgarity in Online and Public Discourse*.
 
 ## Files Included
-- **f-word list.xlsx:** The final list of f-words (2344 items) utilized in the paper
+- **f-word list.xlsx:** The final list of f-words (2,344 items) utilized in the paper
 - **au.html:** The geographical distribution of Australian users
 - **uk_rural.html:** The geographical distribution of UK rural users
 - **uk_urban.html:** The geographical distribution of UK urban users
