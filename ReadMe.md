@@ -15,7 +15,7 @@ This repository includes supplementary materials for the paper titled *Do we swe
 This materials are intended for academic research and analysis. Users are encouraged to cite our paper in any resulting work.
 
 ## Cite
-Laitinen, M., Rautionaho, P., Halonen, M., & Fatemi, M. (2024). Do we swear more with friends or with acquaintances? F##k in social networks. *Lingua Special Issue on Bad Language and Vulgarity in Online and Public Discourse*.
+Laitinen, M., Rautionaho, P., Fatemi, M., & Halonen, M. (2025). Do we swear more with friends or with acquaintances? F##k in social networks. *Lingua Special Issue on Bad Language and Vulgarity in Online and Public Discourse*.
 
 ## Files Included
 - **f-word list.xlsx:** The final list of f-words (2,344 items) utilized in the paper
